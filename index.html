@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Odin Projects</title>
+		<style>
+			body {
+				font-family: Arial, sans-serif;
+				background: linear-gradient(135deg, rgba(240, 244, 255, 0.8), rgba(232, 249, 244, 0.8));
+				color: #333;
+				margin: 0;
+				padding: 6rem;
+			}
+
+			h1 {
+				text-align: center;
+				margin-bottom: 2rem;
+				color: #2a4d69; /* deep blue */
+			}
+
+			.projects {
+				display: grid;
+				grid-template-columns: repeat(3, 1fr);
+				margin: 0 auto;
+				gap: 5rem;
+			}
+
+			.project {
+				background: white;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				padding: 1.5rem;
+				border-radius: 12px;
+				box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+				transition: transform 0.2s ease;
+			}
+
+			.project:hover {
+				transform: translateY(-5px);
+			}
+
+			.project h2 {
+				margin-top: 0;
+			}
+
+			.links {
+				margin-top: 1rem;
+			}
+
+			.links a {
+				display: inline-block;
+				margin-right: 1rem;
+				text-decoration: none;
+				color: #0366d6;
+				font-weight: bold;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Some Odin Projects</h1>
+		<div class="projects">
+			<div class="project">
+				<h2>Rock Paper Scissors</h2>
+				<p>
+					A simple Rock Paper Scissors game built using HTML, CSS, and JavaScript. Play against the computer in a
+					best-of series with real-time score tracking and a nice user interface!
+				</p>
+				<div class="links">
+					<a href="https://yukselg.github.io/rock-paper-scissors/" target="_blank">Live Demo</a>
+					<a href="https://github.com/YukselG/rock-paper-scissors" target="_blank">Source Code</a>
+				</div>
+			</div>
+
+			<div class="project">
+				<h2>Etch a Sketch</h2>
+				<p>
+					This is a simple Etch A Sketch project built using HTML, CSS, and JavaScript. It allows users to draw on a
+					customizable grid by hovering over cells. The grid size can be adjusted dynamically, and the drawing effect
+					mimics an Etch A Sketch board.
+				</p>
+				<div class="links">
+					<a href="https://yukselg.github.io/Etch-a-Sketch/" target="_blank">Live Demo</a>
+					<a href="https://github.com/YukselG/Etch-a-Sketch" target="_blank">Source Code</a>
+				</div>
+			</div>
+
+			<div class="project">
+				<h2>TicTacToe</h2>
+				<p>A Tic Tac Toe game you can play in your browser! Dont mind the UI..</p>
+				<div class="links">
+					<a href="https://yukselg.github.io/TOP-TicTacToe/" target="_blank">Live Demo</a>
+					<a href="https://github.com/YukselG/TOP-TicTacToe" target="_blank">Source Code</a>
+				</div>
+			</div>
+
+			<!-- Add more projects here -->
+		</div>
+	</body>
+</html>
